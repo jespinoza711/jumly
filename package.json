@@ -31,7 +31,6 @@
     "jasmine-node": "^1.14.5",
     "karma": "^0.12.28",
     "karma-chrome-launcher": "^0.1.7",
-    "karma-cli": "0.0.4",
     "karma-coffee-preprocessor": "^0.2.1",
     "karma-jasmine": "^0.3.2",
     "karma-phantomjs-launcher": "^0.1.4",
