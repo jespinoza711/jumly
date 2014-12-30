@@ -71,7 +71,7 @@ module.exports = function(config) {
 
 
     // enable / disable watching file and executing tests whenever any file changes
-    autoWatch: travis_enabled,
+    autoWatch: !travis_enabled,
 
 
     // start these browsers
@@ -82,7 +82,7 @@ module.exports = function(config) {
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
-    singleRun: !travis_enabled,
+    singleRun: travis_enabled,
 
 
     customLaunchers: {
