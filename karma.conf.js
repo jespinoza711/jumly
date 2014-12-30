@@ -1,6 +1,6 @@
 // Karma configuration
 // Generated on Sat Dec 20 2014 18:15:19 GMT+0900 (JST)
-var travis_enabled = process.env["TRAVIS"] ? true : false;
+var travis_enabled = process.env["KARMA_OPTIONS"] ? true : false;
 
 module.exports = function(config) {
   config.set({
