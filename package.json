@@ -51,7 +51,7 @@
   },
   "scripts": {
     "start": "./app.coffee",
-    "test": "make karma"
+    "test": "karma start karma.conf.js"
   },
   "license": "MIT"
 }
