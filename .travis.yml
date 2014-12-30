@@ -9,9 +9,7 @@ before_install:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
 install:
-  - mkdir -p vendor
-  - curl -OL http://coffeescript.org/extras/coffee-script.js
-  - mv coffee-script.js vendor
+  - mkdir -p vendor; curl -OL http://coffeescript.org/extras/coffee-script.js; mv coffee-script.js vendor
   - npm install
   - ./node_modules/.bin/grunt stylus
 
