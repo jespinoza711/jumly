@@ -52,7 +52,7 @@
   },
   "scripts": {
     "start": "./app.coffee",
-    "test": "./node_modules/karma/bin/karma start karma.conf.js --browsers ChromeTravis"
+    "test": "./node_modules/karma/bin/karma start karma.conf.js $KARMA_OPTIONS"
   },
   "license": "MIT"
 }
